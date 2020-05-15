@@ -1,5 +1,24 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <Navigation />
+    <Introduction />
+    <Skills />
   </div>
 </template>
+
+<script>
+import Introduction from "../components/Introduction.vue";
+import Navigation from "../components/Navigation.vue";
+import Skills from "../components/Skills.vue";
+export default {
+  name: "About",
+  components: {
+    Introduction,
+    Navigation,
+    Skills
+  }
+};
+</script>
+
+<style scoped>
+</style>

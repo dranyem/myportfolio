@@ -1,7 +1,7 @@
 <template>
   <div>
     <div>
-      <h3 class="font-weight-italic mb-5 text-center">work in progress ....</h3>
+      <h3 class="font-weight-italic mb-2 text-center" style="font-family: Muli">Hi, I'm</h3>
     </div>
     <h1 class="text-uppercase display-4 text-center" style="font-family: Audiowide">Meynard David</h1>
     <div class="d-flex justify-content-center mt-2">
@@ -42,7 +42,7 @@
       <router-link
         class="text-light text-center m-3 h2 border-right border-left border-light px-2"
         style="font-family: Oxanium"
-        to="/#"
+        to="/about"
       >ABOUT ME</router-link>
     </div>
   </div>
@@ -50,7 +50,8 @@
 
 <script>
 export default {
-  name: "NameTitle"
+  name: "NameTitle",
+  mount() {}
 };
 </script>
 
