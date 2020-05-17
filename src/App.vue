@@ -15,7 +15,7 @@ body {
 }
 #app {
   height: 100vh;
-  width: 100vw;
+  max-width: 100vw;
   color: white;
 }
 </style>

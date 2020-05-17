@@ -20,17 +20,17 @@
         href="https://www.linkedin.com/in/meynarddavid/"
         target="_blank"
       >
-        <i class="fab fa-linkedin pr-1" style="font-size: 1.5em"></i>
-        <span class="d-none d-sm-inline">LinkedIn</span>
+        <i class="fab fa-linkedin" style="font-size: 1.5em"></i>
+        <span class="d-none d-sm-inline pl-1">LinkedIn</span>
       </a>
       <a class="btn btn-outline-light mx-auto" href="https://github.com/dranyem" target="_blank">
-        <i class="fab fa-github pr-1" style="font-size: 1.5em"></i>
-        <span class="d-none d-sm-inline">GitHub</span>
+        <i class="fab fa-github" style="font-size: 1.5em"></i>
+        <span class="d-none d-sm-inline pl-1">GitHub</span>
       </a>
 
-      <a class="btn btn-outline-light mx-auto" href="#" target="_blank">
-        <i class="fas fa-id-card pr-1" style="font-size: 1.5em"></i>
-        <span class="d-none d-sm-inline">Contact</span>
+      <a class="btn btn-outline-light mx-auto" href="mailto:davidmeynard@yahoo.com.ph">
+        <i class="fas fa-id-card" style="font-size: 1.5em"></i>
+        <span class="d-none d-sm-inline pl-1">Contact</span>
       </a>
     </div>
     <div class="d-flex justify-content-center mt-4">

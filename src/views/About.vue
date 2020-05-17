@@ -3,6 +3,7 @@
     <Navigation />
     <Introduction />
     <Skills />
+    <Contact />
   </div>
 </template>
 
@@ -10,12 +11,14 @@
 import Introduction from "../components/Introduction.vue";
 import Navigation from "../components/Navigation.vue";
 import Skills from "../components/Skills.vue";
+import Contact from "../components/Contact.vue";
 export default {
   name: "About",
   components: {
     Introduction,
     Navigation,
-    Skills
+    Skills,
+    Contact
   }
 };
 </script>

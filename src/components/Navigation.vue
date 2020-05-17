@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nav class="navbar navbar-dark bg-dark navbar-expand-lg sticky-top">
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg fixed-top">
       <router-link class="navbar-brand" to="/">
         <img
           src="https://media.giphy.com/media/Jp4zBl0aEoY3ScwmB3/giphy.gif"
@@ -52,7 +52,11 @@
                 <i class="fab fa-github"></i>
               </a>
 
-              <a class="logo text-muted h3 px-2 align-bottom" href="#" target="_blank">
+              <a
+                class="logo text-muted h3 px-2 align-bottom"
+                href="mailto:davidmeynard@yahoo.com.ph"
+                target="_blank"
+              >
                 <i class="fas fa-id-card"></i>
               </a>
             </div>
