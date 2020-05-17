@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="home">
     <div>
       <h3 class="font-weight-italic mb-2 text-center" style="font-family: Muli">Hi, I'm</h3>
     </div>
@@ -51,6 +51,11 @@
 <script>
 export default {
   name: "NameTitle",
+  data() {
+    return {
+      bgImage: ""
+    };
+  },
   mount() {}
 };
 </script>

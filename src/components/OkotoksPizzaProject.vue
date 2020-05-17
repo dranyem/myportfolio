@@ -84,7 +84,7 @@
         </div>
         <p
           class="m-3"
-        >Okotoks Pizza Restaurant's website. A simple website with. Implemented using plain HTML and CSS with Sass.</p>
+        >Okotoks Pizza Restaurant's website. A simple website for a pizza business restaurant. Implemented using plain HTML and CSS with Sass.</p>
       </div>
     </div>
   </div>
