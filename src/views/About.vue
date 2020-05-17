@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <Navigation />
+    <Navigation activeLink="about" />
     <Introduction />
     <Skills />
     <Contact />

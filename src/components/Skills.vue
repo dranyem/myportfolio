@@ -248,7 +248,11 @@
           </div>
         </div>
       </div>
-      <h4 class="text-center mt-4">And more to come! Learning never stops ...</h4>
+      <h4 class="text-center mt-4 d-block">And more to come! Learning never stops ...</h4>
+      <router-link
+        to="/projects"
+        class="btn btn-outline-dark btn-lg text-center d-block mt-5"
+      >Check out my projects</router-link>
     </div>
   </div>
 </template>

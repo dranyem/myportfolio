@@ -30,10 +30,18 @@
             <router-link class="nav-link" to="/">Home</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">My Projects</a>
+            <router-link
+              class="nav-link"
+              to="/projects"
+              :class="activeLink=='projects'? 'active':''"
+            >My Projects</router-link>
           </li>
-          <li class="nav-item active">
-            <router-link class="nav-link" to="/about">About Me</router-link>
+          <li class="nav-item">
+            <router-link
+              class="nav-link"
+              to="/about"
+              :class="activeLink=='about'? 'active':''"
+            >About Me</router-link>
           </li>
           <li class="nav-item">
             <div class>
@@ -69,7 +77,12 @@
 </template>
 
 <script>
-export default {};
+export default {
+  name: "Navigation",
+  props: {
+    activeLink: String
+  }
+};
 </script>
 
 <style scoped>

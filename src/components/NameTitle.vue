@@ -37,7 +37,7 @@
       <router-link
         class="text-light text-center m-3 h2 border-right border-left border-light px-2"
         style="font-family: Oxanium"
-        to="/#"
+        to="/projects"
       >MY PROJECTS</router-link>
       <router-link
         class="text-light text-center m-3 h2 border-right border-left border-light px-2"

@@ -1,5 +1,5 @@
 <template>
-  <div class="container d-flex align-items-center" style="height:110vh;">
+  <div class="container d-flex align-items-center" style="height:100vh;">
     <div class="row border-right border-left border-light">
       <div class="col-md-4 d-flex align-items-center justify-content-center">
         <img src="../assets/myimage.jpg" class="rounded d-block shadow" />
