@@ -1,6 +1,6 @@
 <template>
   <div class="home d-flex align-items-center justify-content-center h-100">
-    <name-title />
+    <NameTitle />
   </div>
 </template>
 

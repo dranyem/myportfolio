@@ -50,13 +50,7 @@
 
 <script>
 export default {
-  name: "NameTitle",
-  data() {
-    return {
-      bgImage: ""
-    };
-  },
-  mount() {}
+  name: "NameTitle"
 };
 </script>
 

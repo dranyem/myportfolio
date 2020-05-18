@@ -1,10 +1,5 @@
 <template>
   <div id="app">
-    <!-- <div id="nav">
-      <router-link to="/">Home</router-link>|
-      <router-link to="/about">About</router-link>|
-      <router-link to="/projects">Projects</router-link>
-    </div>-->
     <router-view id="view" style="background-color: rgb(5, 37, 56, .90);" />
   </div>
 </template>

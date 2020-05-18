@@ -7,7 +7,7 @@
       <h1 class="text-center display-4" style="font-family: Oxanium">Skills</h1>
       <h2>Programming Languages, Tools and Frameworks</h2>
       <div class="row">
-        <div class="col-md">
+        <div class="col-lg">
           <div class="card">
             <div class="card-body text-center">
               <svg viewBox="0 0 128 128">
@@ -30,7 +30,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md">
+        <div class="col-lg">
           <div class="card">
             <div class="card-body text-center">
               <svg viewBox="0 0 128 128">
@@ -60,7 +60,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md">
+        <div class="col-lg">
           <div class="card">
             <div class="card-body text-center">
               <svg viewBox="0 0 128 128">
@@ -74,7 +74,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md">
+        <div class="col-lg">
           <div class="card">
             <div class="card-body text-center">
               <svg viewBox="0 0 128 128">
@@ -88,7 +88,7 @@
           </div>
         </div>
         <div class="w-100"></div>
-        <div class="col-md">
+        <div class="col-lg">
           <div class="card">
             <div class="card-body text-center">
               <svg viewBox="0 0 128 128">
@@ -109,7 +109,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md">
+        <div class="col-lg">
           <div class="card">
             <div class="card-body text-center">
               <svg viewBox="0 0 128 128">
@@ -130,7 +130,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md">
+        <div class="col-lg">
           <div class="card">
             <div class="card-body text-center">
               <svg viewBox="0 0 128 128">
@@ -157,7 +157,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md">
+        <div class="col-lg">
           <div class="card">
             <div class="card-body text-center">
               <svg viewBox="0 0 128 128">
@@ -173,7 +173,7 @@
           </div>
         </div>
         <div class="w-100"></div>
-        <div class="col-md">
+        <div class="col-lg">
           <div class="card">
             <div class="card-body text-center">
               <svg viewBox="0 0 128 128">
@@ -186,7 +186,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md">
+        <div class="col-lg">
           <div class="card">
             <div class="card-body text-center">
               <svg viewBox="0 0 128 128">
@@ -215,7 +215,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md">
+        <div class="col-lg">
           <div class="card">
             <div class="card-body text-center">
               <svg viewBox="0 0 128 128">
@@ -230,7 +230,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md">
+        <div class="col-lg">
           <div class="card">
             <div class="card-body text-center">
               <svg viewBox="0 0 128 128">
