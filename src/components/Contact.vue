@@ -32,14 +32,23 @@
       <div class="w-100"></div>
       <div class="col">
         Looking to hire? Here is my
-        <a href="../assets/MeynardDavid-Resume.pdf" download>resume</a>.
+        <a
+          :href="this.publicPath+'MeynardDavid-Resume.pdf'"
+          download
+        >resume</a>.
       </div>
     </div>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      publicPath: process.env.BASE_URL
+    };
+  }
+};
 </script>
 
 <style scoped>
