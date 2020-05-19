@@ -9,7 +9,7 @@
         <p>
           My name is
           <strong style="font-family: Oxanium">Meynard David</strong>,
-          and I am Calgary, AB based developer. I just finished a Full Stack Web Development program from InnoTech College and is actively looking for a position in this field.
+          and I am a developer based in Calgary, AB. I just finished a Full Stack Web Development program from InnoTech College and is actively looking for a position in this field.
         </p>
         <p>I love solving problems. Whether it’s finding the most elegant way to write a line of code or figuring out the most efficient way to implement something, I love the challenge of finding a way and discovering solutions.</p>
         <p class="text-center mt-5">

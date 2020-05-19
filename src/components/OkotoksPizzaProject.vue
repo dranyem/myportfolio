@@ -64,7 +64,7 @@
       </div>
       <div class="col-md-6 text-center mt-3">
         <p class="h1" style="font-family: Oxanium">Okotoks Pizza</p>
-        <a class="btn btn-outline-light btn-sm mx-3" href="#" target="_blank">
+        <a class="btn btn-outline-light btn-sm mx-3" href="https://okotokspizza.ml" target="_blank">
           Live
           <i class="fas fa-external-link-alt"></i>
         </a>
