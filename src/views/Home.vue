@@ -9,7 +9,7 @@ import NameTitle from "../components/NameTitle.vue";
 export default {
   name: "Home",
   components: {
-    NameTitle
-  }
+    NameTitle,
+  },
 };
 </script>

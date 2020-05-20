@@ -3,11 +3,20 @@
     class="container-fluid d-flex justify-content-center align-items-center"
     style="height:100vh;"
   >
-    <div class="row w-100">
+    <div id="trigger1"></div>
+    <div class="row w-100" id="reveal1">
       <div class="col-md-6">
-        <div id="carouselExampleIndicator1" class="carousel slide w-100 h-100" data-ride="carousel">
+        <div
+          id="carouselExampleIndicator1"
+          class="carousel slide w-100 h-100"
+          data-ride="carousel"
+        >
           <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicator1" data-slide-to="0" class="active"></li>
+            <li
+              data-target="#carouselExampleIndicator1"
+              data-slide-to="0"
+              class="active"
+            ></li>
             <li data-target="#carouselExampleIndicator1" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicator1" data-slide-to="2"></li>
             <li data-target="#carouselExampleIndicator1" data-slide-to="3"></li>
@@ -18,28 +27,60 @@
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="../assets/stocktracker/st-0.png" class="d-block w-100 mh-100" alt />
+              <img
+                src="../assets/stocktracker/st-0.png"
+                class="d-block w-100 mh-100"
+                alt
+              />
             </div>
             <div class="carousel-item">
-              <img src="../assets/stocktracker/st-1.png" class="d-block w-100 mh-100" alt />
+              <img
+                src="../assets/stocktracker/st-1.png"
+                class="d-block w-100 mh-100"
+                alt
+              />
             </div>
             <div class="carousel-item">
-              <img src="../assets/stocktracker/st-2.png" class="d-block w-100" alt />
+              <img
+                src="../assets/stocktracker/st-2.png"
+                class="d-block w-100"
+                alt
+              />
             </div>
             <div class="carousel-item">
-              <img src="../assets/stocktracker/st-3.png" class="d-block w-100 mh-100" alt />
+              <img
+                src="../assets/stocktracker/st-3.png"
+                class="d-block w-100 mh-100"
+                alt
+              />
             </div>
             <div class="carousel-item">
-              <img src="../assets/stocktracker/st-4.png" class="d-block w-100 mh-100" alt />
+              <img
+                src="../assets/stocktracker/st-4.png"
+                class="d-block w-100 mh-100"
+                alt
+              />
             </div>
             <div class="carousel-item">
-              <img src="../assets/stocktracker/st-5.png" class="d-block w-100 mh-100" alt />
+              <img
+                src="../assets/stocktracker/st-5.png"
+                class="d-block w-100 mh-100"
+                alt
+              />
             </div>
             <div class="carousel-item">
-              <img src="../assets/stocktracker/st-6.png" class="d-block w-100 mh-100" alt />
+              <img
+                src="../assets/stocktracker/st-6.png"
+                class="d-block w-100 mh-100"
+                alt
+              />
             </div>
             <div class="carousel-item">
-              <img src="../assets/stocktracker/st-7.png" class="d-block w-100 mh-100" alt />
+              <img
+                src="../assets/stocktracker/st-7.png"
+                class="d-block w-100 mh-100"
+                alt
+              />
             </div>
           </div>
           <a
@@ -64,7 +105,11 @@
       </div>
       <div class="col-md-6 text-center mt-3">
         <p class="h1" style="font-family: Oxanium">Stock Tracker</p>
-        <a class="btn btn-outline-light btn-sm mx-3" href="https://stocktracker.ml" target="_blank">
+        <a
+          class="btn btn-outline-light btn-sm mx-3"
+          href="https://stocktracker.ml"
+          target="_blank"
+        >
           Live
           <i class="fas fa-external-link-alt"></i>
         </a>
@@ -77,7 +122,9 @@
           <i class="fas fa-code"></i>
         </a>
         <div class="logo mt-3">
-          <p style="font-size:.9em;">Programming Language, Tools and Framework used:</p>
+          <p style="font-size:.9em;">
+            Programming Language, Tools and Framework used:
+          </p>
           <i class="devicon-html5-plain-wordmark colored"></i>
           <i class="devicon-css3-plain-wordmark colored"></i>
           <i class="devicon-javascript-plain colored"></i>
@@ -86,11 +133,11 @@
         </div>
         <p class="m-3">
           A simple Stock Tracking Website. Uses various API such as
-          <a
-            href="https://www.alphavantage.co/"
-          >Alphantage</a>,
+          <a href="https://www.alphavantage.co/">Alphantage</a>,
           <a href="https://iexcloud.io/">IEX Cloud</a>,
-          <a href="https://newsapi.org/">News API</a> to provide data and information. This mvp project also uses VUEX for state management and hosted on a google cloud web hosting server.
+          <a href="https://newsapi.org/">News API</a> to provide data and
+          information. This mvp project also uses VUEX for state management and
+          hosted on a google cloud web hosting server.
         </p>
       </div>
     </div>
@@ -99,7 +146,18 @@
 
 <script>
 export default {
-  name: "StockTrackerProject"
+  name: "StockTrackerProject",
+  mounted() {
+    var scene = this.$scrollmagic
+      .scene({
+        triggerElement: "#trigger1",
+        triggerHook: 0.9, // show, when scrolled 10% into view
+        duration: "80%", // hide 10% before exiting view (80% + 10% from bottom)
+        offset: 50, // move trigger to center of element
+      })
+      .setClassToggle("#reveal1", "visible"); // add class to reveal
+    this.$scrollmagic.addScene(scene);
+  },
 };
 </script>
 
@@ -112,5 +170,26 @@ export default {
 .logo i {
   font-size: 2.5em;
   margin: 0 5px;
+}
+#reveal1 {
+  opacity: 0;
+  -webkit-transform: scale(0.6);
+  -moz-transform: scale(0.6);
+  -ms-transform: scale(0.6);
+  -o-transform: scale(0.6);
+  transform: scale(0.6);
+  -webkit-transition: all 1.5s ease-in-out;
+  -moz-transition: all 1.5s ease-in-out;
+  -ms-transition: all 1.5s ease-in-out;
+  -o-transition: all 1.5s ease-in-out;
+  transition: all 1.5s ease-in-out;
+}
+#reveal1.visible {
+  opacity: 1;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+  transform: none;
 }
 </style>
